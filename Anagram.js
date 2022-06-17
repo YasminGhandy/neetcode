@@ -11,7 +11,8 @@ function isAnagram(s, t) {
         let len = s.length
         for (let i = 0; i < len ; i++)
         {
-            if (s[i] !== t[i]) {
+            if (s[i] !== t[i]) 
+            {
                 return false;
             }
         }
