@@ -1,6 +1,4 @@
-let nums;
-function duplicate(nums) 
-{
+let containsDuplicate = function(nums) {
     let len = nums.length;
     for (let i = 0; i < len; i++)
         {
@@ -13,4 +11,4 @@ function duplicate(nums)
         }
     }
     return false;
-}
+};

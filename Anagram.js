@@ -1,5 +1,4 @@
-let s, t;
-function isAnagram(s, t) {
+let isAnagram = function(s, t) {
     if(s.length !== t.length)
     {
         return false ;
@@ -22,4 +21,4 @@ function isAnagram(s, t) {
     {
         alert ("enter string in lower case!");
     }
-}
+};
